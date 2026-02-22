@@ -9,6 +9,12 @@
     <title>Mohamed Yasser | Data Analyst Portfolio</title>
 </head>
 <body>
+    <div class="bg-blobs" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+    </div>
+
     <header>
         <a href="#home" class="logo">Mohamed Yasser</a>
         <nav class="navigation">
@@ -24,20 +30,32 @@
             <div class="hero-text">
                 <p class="hero-tag">Data Analyst Portfolio</p>
                 <h1>Mohamed Yasser</h1>
-                <h2>SQL • Python • Power BI • Excel</h2>
-                <p class="hero-description">معرض أعمال احترافي لعرض المهارات، المشاريع، وأسلوب التحليل بشكل واضح وفخم.</p>
+                <p class="hero-description">
+                    أنا محلل بيانات بحول البيانات المعقدة لرؤية واضحة تساعدك تاخد قرار صح وتحل مشاكل شغلك بذكاء.
+                    ببني تقارير تفاعلية وتحليلات دقيقة تكتشف نقاط الضعف والقوة، علشان تكبر، تزود أرباحك، وتحسن أداءك بثقة.
+                </p>
+
+                <div class="skills-pills">
+                    <span>SQL</span>
+                    <span>Python</span>
+                    <span>Power BI</span>
+                    <span>Excel</span>
+                </div>
+
                 <div class="hero-buttons">
                     <a href="#projects" class="main-btn">عرض المشاريع</a>
                     <a href="#contact" class="ghost-btn">تواصل الآن</a>
                 </div>
+
                 <div class="social-icons">
-                    <a href="https://github.com/Mohamed-Yaser-Mohamed" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="https://www.facebook.com/MohamedYasser677" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/Mohamed-Yaser-Mohamed" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/MohamedYasser677" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
                     <a href="tel:01271714469" aria-label="Phone"><i class="fas fa-phone"></i></a>
                 </div>
             </div>
-            <div class="hero-image-wrap">
-                <img src="images/images/background.jpeg" alt="Mohamed Yasser portrait" class="hero-image">
+
+            <div class="hero-image-wrap" data-tilt>
+                <img src="images/images/profile.svg" alt="Mohamed Yasser portrait" class="hero-image">
             </div>
         </div>
     </section>
@@ -48,45 +66,32 @@
             <article class="skill-card reveal">
                 <i class="fas fa-database"></i>
                 <h3>SQL</h3>
-                <p>Data querying، joins، وكتابة تقارير دقيقة من قواعد البيانات.</p>
+                <p>استعلامات متقدمة، تنظيف البيانات، وتحليل الأداء بدقة.</p>
             </article>
             <article class="skill-card reveal">
                 <i class="fab fa-python"></i>
                 <h3>Python</h3>
-                <p>تنظيف البيانات، تحليل النتائج، وتجهيز ملفات التحليل.</p>
+                <p>تحليل البيانات وبناء workflows ذكية قابلة للتطوير.</p>
             </article>
             <article class="skill-card reveal">
                 <i class="fas fa-chart-column"></i>
                 <h3>Power BI</h3>
-                <p>تصميم لوحات معلومات تفاعلية لعرض KPIs بطريقة احترافية.</p>
+                <p>تصميم لوحات تفاعلية تساعد أصحاب القرار بسرعة.</p>
             </article>
             <article class="skill-card reveal">
                 <i class="fas fa-file-excel"></i>
                 <h3>Excel</h3>
-                <p>Pivot Tables، dashboards، وتقارير سريعة لاتخاذ القرار.</p>
+                <p>تقارير KPI وDashboard سريعة لمتابعة النتائج.</p>
             </article>
         </div>
     </section>
 
     <section class="projects" id="projects">
         <h2 class="title">المشاريع</h2>
-        <div class="timeline">
-            <div class="timeline-item reveal">
-                <h3>SQL Sales Analysis</h3>
-                <p>تحليل مبيعات وتحديد أعلى المنتجات أداءً باستخدام SQL.</p>
-            </div>
-            <div class="timeline-item reveal">
-                <h3>Python Data Cleaning</h3>
-                <p>تنظيف وتجهيز بيانات خام قبل عمل التحليل النهائي.</p>
-            </div>
-            <div class="timeline-item reveal">
-                <h3>Power BI Dashboard</h3>
-                <p>Dashboard تفاعلية لعرض الأداء الشهري والسنوي.</p>
-            </div>
-            <div class="timeline-item reveal">
-                <h3>Excel KPI Report</h3>
-                <p>تقرير KPI ديناميكي لمتابعة الأهداف بشكل دوري.</p>
-            </div>
+        <div class="empty-projects reveal">
+            <i class="fas fa-folder-open"></i>
+            <h3>سيتم إضافة المشاريع قريباً</h3>
+            <p>حالياً القسم فاضي لحد ما أرفع أول المشاريع الفعلية.</p>
         </div>
     </section>
 
@@ -98,21 +103,54 @@
                 <h3>رقم الهاتف</h3>
                 <p>01271714469</p>
             </a>
-            <a class="contact-card reveal" href="https://www.facebook.com/MohamedYasser677" target="_blank">
+            <a class="contact-card reveal" href="https://www.facebook.com/MohamedYasser677" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-facebook"></i>
                 <h3>Facebook</h3>
-                <p>MohamedYasser677</p>
+                <p>افتح البروفايل</p>
             </a>
-            <a class="contact-card reveal" href="https://github.com/Mohamed-Yaser-Mohamed" target="_blank">
+            <a class="contact-card reveal" href="https://github.com/Mohamed-Yaser-Mohamed" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-github"></i>
                 <h3>GitHub</h3>
-                <p>Mohamed-Yaser-Mohamed</p>
+                <p>افتح الحساب</p>
             </a>
         </div>
     </section>
 
     <footer class="footer">
         <p>© 2026 <span>Mohamed Yasser</span> - Data Analyst Portfolio</p>
+        <div class="footer-links">
+            <a href="https://github.com/Mohamed-Yaser-Mohamed" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.facebook.com/MohamedYasser677" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="tel:01271714469">Phone</a>
+        </div>
     </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                }
+            });
+        }, { threshold: 0.2 });
+
+        document.querySelectorAll('.reveal').forEach((item) => observer.observe(item));
+
+        const tilt = document.querySelector('[data-tilt]');
+        if (tilt) {
+            tilt.addEventListener('mousemove', (e) => {
+                const rect = tilt.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                const rotateY = ((x / rect.width) - 0.5) * 10;
+                const rotateX = ((y / rect.height) - 0.5) * -10;
+                tilt.style.transform = `perspective(900px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+            });
+
+            tilt.addEventListener('mouseleave', () => {
+                tilt.style.transform = 'perspective(900px) rotateX(0deg) rotateY(0deg)';
+            });
+        }
+    </script>
 </body>
 </html>

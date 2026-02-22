@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="Mohamed Yasser profile placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f1f"/>
+      <stop offset="100%" stop-color="#141b31"/>
+    </linearGradient>
+    <radialGradient id="light" cx="70%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#5b8cff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5b8cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <rect width="900" height="900" fill="url(#light)"/>
+  <circle cx="450" cy="330" r="145" fill="#253252"/>
+  <path d="M220 760c28-140 120-220 230-220s202 80 230 220" fill="#253252"/>
+  <text x="450" y="835" font-size="56" fill="#42e8e0" text-anchor="middle" font-family="Cairo, Arial, sans-serif">Mohamed Yasser</text>
+</svg>
