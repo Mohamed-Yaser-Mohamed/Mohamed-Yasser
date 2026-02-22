@@ -1,183 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Mohamed Yasser</title>
+    <title>Mohamed Yasser | Data Analyst Portfolio</title>
 </head>
 <body>
-
     <header>
-        <a href="#" class="logo">Mohamed</a>
+        <a href="#home" class="logo">Mohamed Yasser</a>
         <nav class="navigation">
-            <a href="#services">Services</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="#home">الرئيسية</a>
+            <a href="#skills">المهارات</a>
+            <a href="#projects">المشاريع</a>
+            <a href="#contact">تواصل</a>
         </nav>
     </header>
 
-
-    <section class="main">
-        <div>
-            <h2>Hello, I'm Mohamed<br><span>Content Creator</span></h2>
-            <h3>I build life changing courses</h3>
-            <a href="#projects" class="main-btn">View my work</a>
-            <div class="social-icons">
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+    <section class="hero" id="home">
+        <div class="hero-layout reveal">
+            <div class="hero-text">
+                <p class="hero-tag">Data Analyst Portfolio</p>
+                <h1>Mohamed Yasser</h1>
+                <h2>SQL • Python • Power BI • Excel</h2>
+                <p class="hero-description">معرض أعمال احترافي لعرض المهارات، المشاريع، وأسلوب التحليل بشكل واضح وفخم.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="main-btn">عرض المشاريع</a>
+                    <a href="#contact" class="ghost-btn">تواصل الآن</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/Mohamed-Yaser-Mohamed" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/MohamedYasser677" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="tel:01271714469" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-wrap">
+                <img src="images/images/background.jpeg" alt="Mohamed Yasser portrait" class="hero-image">
             </div>
         </div>
     </section>
 
-    <section class="cards" id="services">
-        <h2 class="title">Services</h2>
-        <div class="content">
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-edit"></i>
-                </div>
-                <div class="info">
-                    <h3>Script Writing</h3>
-                    <p>Research and write scripts for different topics that can then be directly recorded for video production</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-video"></i>
-                </div>
-                <div class="info">
-                    <h3>Video Production</h3>
-                    <p>Record and shoot videos taking into consideration proper settings, followed by production & post-production work</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-graduation-cap"></i>
-                </div>
-                <div class="info">
-                    <h3>Curriculum Development</h3>
-                    <p>Develop complete curriculums for various technical topics to produce digital transformative courses</p>
-                </div>
-            </div>
+    <section class="skills" id="skills">
+        <h2 class="title">المهارات الأساسية</h2>
+        <div class="skills-grid">
+            <article class="skill-card reveal">
+                <i class="fas fa-database"></i>
+                <h3>SQL</h3>
+                <p>Data querying، joins، وكتابة تقارير دقيقة من قواعد البيانات.</p>
+            </article>
+            <article class="skill-card reveal">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+                <p>تنظيف البيانات، تحليل النتائج، وتجهيز ملفات التحليل.</p>
+            </article>
+            <article class="skill-card reveal">
+                <i class="fas fa-chart-column"></i>
+                <h3>Power BI</h3>
+                <p>تصميم لوحات معلومات تفاعلية لعرض KPIs بطريقة احترافية.</p>
+            </article>
+            <article class="skill-card reveal">
+                <i class="fas fa-file-excel"></i>
+                <h3>Excel</h3>
+                <p>Pivot Tables، dashboards، وتقارير سريعة لاتخاذ القرار.</p>
+            </article>
         </div>
     </section>
 
     <section class="projects" id="projects">
-        <h2 class="title">Projects</h2>
-        <div class="content">
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/work1.jpg" />
-                </div>
-                <div class="project-info">
-                    <p class="project-category">Script Writing & Video Production</p>
-                    <strong class="project-title">
-                        <span>Dev Books</span>
-                        <a href="#" class="more-details">More details</a>
-                    </strong>
-                </div>
+        <h2 class="title">المشاريع</h2>
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <h3>SQL Sales Analysis</h3>
+                <p>تحليل مبيعات وتحديد أعلى المنتجات أداءً باستخدام SQL.</p>
             </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/work2.jpg" />
-                </div>
-                <div class="project-info">
-                    <p class="project-category">Script Writing & Video Production</p>
-                    <strong class="project-title">
-                        <span>Dev Books</span>
-                        <a href="#" class="more-details">More details</a>
-                    </strong>
-                </div>
+            <div class="timeline-item reveal">
+                <h3>Python Data Cleaning</h3>
+                <p>تنظيف وتجهيز بيانات خام قبل عمل التحليل النهائي.</p>
             </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/work3.jpg" />
-                </div>
-                <div class="project-info">
-                    <p class="project-category">Script Writing & Video Production</p>
-                    <strong class="project-title">
-                        <span>Dev Books</span>
-                        <a href="#" class="more-details">More details</a>
-                    </strong>
-                </div>
+            <div class="timeline-item reveal">
+                <h3>Power BI Dashboard</h3>
+                <p>Dashboard تفاعلية لعرض الأداء الشهري والسنوي.</p>
             </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/work4.jpg" />
-                </div>
-                <div class="project-info">
-                    <p class="project-category">Script Writing & Video Production</p>
-                    <strong class="project-title">
-                        <span>Dev Books</span>
-                        <a href="#" class="more-details">More details</a>
-                    </strong>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/work5.jpg" />
-                </div>
-                <div class="project-info">
-                    <p class="project-category">Script Writing & Video Production</p>
-                    <strong class="project-title">
-                        <span>Dev Books</span>
-                        <a href="#" class="more-details">More details</a>
-                    </strong>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/work6.jpg" />
-                </div>
-                <div class="project-info">
-                    <p class="project-category">Script Writing & Video Production</p>
-                    <strong class="project-title">
-                        <span>Internet</span>
-                        <a href="#" class="more-details">More details</a>
-                    </strong>
-                </div>
+            <div class="timeline-item reveal">
+                <h3>Excel KPI Report</h3>
+                <p>تقرير KPI ديناميكي لمتابعة الأهداف بشكل دوري.</p>
             </div>
         </div>
     </section>
 
-    <section class="cards contact" id="contact">
-        <h2 class="title">Let's work together</h2>
-        <div class="content">
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-phone"></i>
-                </div>
-                <div class="info">
-                    <h3>Phone</h3>
-                    <p>+20122222222</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-envelope"></i>
-                </div>
-                <div class="info">
-                    <h3>Email</h3>
-                    <p>business@Mohamed.com</p>
-                </div>
-            </div>
+    <section class="contact" id="contact">
+        <h2 class="title">تواصل</h2>
+        <div class="contact-content">
+            <a class="contact-card reveal" href="tel:01271714469">
+                <i class="fas fa-phone"></i>
+                <h3>رقم الهاتف</h3>
+                <p>01271714469</p>
+            </a>
+            <a class="contact-card reveal" href="https://www.facebook.com/MohamedYasser677" target="_blank">
+                <i class="fab fa-facebook"></i>
+                <h3>Facebook</h3>
+                <p>MohamedYasser677</p>
+            </a>
+            <a class="contact-card reveal" href="https://github.com/Mohamed-Yaser-Mohamed" target="_blank">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+                <p>Mohamed-Yaser-Mohamed</p>
+            </a>
         </div>
     </section>
-    
+
     <footer class="footer">
-        <p class="footer-title">Copyrights @ <span>Mohamed Yasser</span></p>
-        <div class="social-icons">
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-        </div>
+        <p>© 2026 <span>Mohamed Yasser</span> - Data Analyst Portfolio</p>
     </footer>
-
 </body>
 </html>
